@@ -4,11 +4,60 @@
 <head>
 
     <title>My title</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <a href="">My link</a>
-    <h1>My header</h1>
+    <div class="log"></div>
+    <script>
+        $(document).ready(function () {
+            console.log(new Date())
+            checkTime()
+
+
+
+        });
+
+function checkTime() {
+    var thetime = '2019-02-20 16:10:00';
+            var d = new Date(Date.parse(thetime.replace(/-/g, "/")));
+
+            var curDate = new Date();
+            if (d <= curDate) {
+                console.log("fatchStart:"+new Date())
+                callAjax();
+            } else {
+                console.log("not yet")
+                setTimeout(function () {
+                    checkTime()
+                        }, 10000);
+            }
+}
+
+        var aroundsec = 0;
+
+        function callAjax() {
+            $.ajax({
+                type: "get",
+                url: "http://wke.bmp66.us/public/get_result.jsp?game_type=B&issue_list=729808",
+                crossDomain: true,
+                contentType: "application/json",
+                success: function (response) {
+                    console.log(aroundsec)
+                    if (response.trim().indexOf("B") == -1) {
+                        aroundsec = aroundsec + 10;
+                        setTimeout(function () {
+                            callAjax()
+                        }, 10000);
+                    } else {
+                        $(".log").html(response + new Date());
+                    }
+                }
+            });
+        }
+    </script>
+
 </body>
 
 </html>
