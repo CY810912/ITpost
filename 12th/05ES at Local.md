@@ -54,7 +54,7 @@
 
 RDB | Elasticsearch| 說明
 ---------|----------|----------
- Table | index(type) | Es並沒有好幾張表變成一張庫的概念，我們直接稱之爲index爲一張表 
+ Table | index(type) | Es並沒有好幾張表變成一個庫的概念，我們直接稱之爲index爲一張表 
  Row | Document | 我們說一張表中的一筆資料，在ES中就是一個document 
  Column | Field | 這筆資料中有很多屬性，例如用戶密碼，在搜尋結果類似json的key
  Schema | Mapping | 資料屬性，字串，數組或布林等等，7.0開始智能辨識，也可動態指定
