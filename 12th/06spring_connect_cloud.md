@@ -11,11 +11,9 @@
 農夫比較喜歡拿了農具，知道農具是幹嘛的，先用出了個東西在說
 
 ---
-好吧，那就來補全Elastic stack這台 **_收割機_** 的相關知識吧
+好吧，那就來補全Elastic stack這 **_倉管_** 的相關知識吧
 
-![](https://CY810912.github.io/th12img/Harvester.jpg)
-
-## 恩？爲何說elastic stack是收割機？  
+## 恩？爲何說elastic stack是倉管？  
 
 
 這牽扯到一個很重要的觀念，這個工具在整項專案中扮演這什麼角色
