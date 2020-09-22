@@ -28,11 +28,11 @@
 ![](https://CY810912.github.io/th12img/restfulapi.png)
 ## 這種事就跟你不需知道引擎原理就可以開車一樣  
 
-ES也相同，並不需要搜尋引擎  
+ES也相同，並不需要搞懂搜尋引擎原理  
 只需要明白時下流行的 Restful api  
-並且也實現了分佈式架構水平擴展面對海量數據更加迎刃有餘  
+並且略懂分佈式架構水平擴展，面對海量數據能更加迎刃有餘  
 
-[不知道Restful API的銅學請點我，優質文章必收呀](https://progressbar.tw/posts/53)
+## [不知道Restful API的銅學請點我，優質文章必收呀](https://progressbar.tw/posts/53)
 
 # 接下來要理解ES有四個非常重要的名詞
 超重要所以字超大
