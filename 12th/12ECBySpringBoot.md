@@ -3,7 +3,7 @@
 ---
 
 如題跟朋友聊天炫耀有來寫這個主題  
-爲了那個elastic 聯名款保溫瓶，他看了看你不是碼農？怎麽都沒扣？
+爲了那個elastic 聯名款保溫瓶，殊不知他的評論：你不是碼農？怎麽都沒扣？
 ![](https://CY810912.github.io/th12img/springboot/lineChat.png)
 
 
@@ -14,7 +14,7 @@
 
 ![](https://CY810912.github.io/th12img/springboot/holyShit.png)
 
-# 好吧，只能自己刻了，接下來未知篇數的獨創，let's start!!
+# 好吧，只能自己刻了，接下來未知篇數的耕田，let's start!!
 
 ##### ~~要命喔我的天....都沒時間寫文章了，加班爆表，然後還要自己刻輪子~~
 
@@ -31,8 +31,10 @@
 
 > 對lambda不熟的銅學，[這裏也有邊好文收着](https://zhuanlan.zhihu.com/p/145734155) 
 
-## 3. 最後來引入常用 maven 這次只要引入lombok就好了 ~~(get/set真是太煩了)~~
+## 3. 最後來引入常用 maven 這次只要引入lombok就好了 ~~(get/set真是太煩了)~~ ,這邊有spring data es這個先不用~ 
 ![](https://CY810912.github.io/th12img/springboot/projectStart3.png)
+
+> 不知道此等神物的銅學也請點 -> [任意門](https://kucw.github.io/blog/2020/3/java-lombok/)
 
 ## 4. 然後直接下一步到專案創建完成DO RE MI SO~
 ![](https://CY810912.github.io/th12img/springboot/projectStart4.png)

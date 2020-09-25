@@ -34,7 +34,7 @@ Nested的設定
     * 可以設定多個模板依照 index_patterns去做marge
     * 可以指定order數值來決定誰marge誰(數值越低越先被操作，之後相同屬性order較大則覆蓋上去)
   
-超抽象，來舉個栗子
+超抽象，來舉個栗子  
 ![](https://CY810912.github.io/th12img/aExcemple.png)
 ```js 
 PUT /_template/template_1
