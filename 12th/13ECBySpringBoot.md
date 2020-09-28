@@ -127,7 +127,7 @@ public class ElasticsearchConfig {
 
 # 這種時候不找出我們的肌肉柴柴，渾身不舒服  
 
-![](https://CY810912.github.io/th12img/springboot/frameWork.jpg)   
+![](https://CY810912.github.io/th12img/springboot/frameWork.png)   
 
 最後再來定義個廢廢的動態資料模板結束今天吧~
 
