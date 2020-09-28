@@ -133,7 +133,7 @@ public class ElasticsearchConfig {
 
 ```java
 @Data
-public class Profile {
+public class UserInfo {
     private String id;
     private String name;
     private String six;
