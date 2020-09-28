@@ -70,11 +70,11 @@ public class UserInfoDAO {
     public IndexResponse createDoc(UserInfo userInfo) throws IOException {
         IndexRequest indexRequest = new IndexRequest(INDEX,TYPE);
         indexRequest.id(userInfo.getId());
-        indexRequest.source(convertProfileDocumentToMap(userInfo));
+        indexRequest.source(convertUserInfoToMap(userInfo));
         return client.index(indexRequest, RequestOptions.DEFAULT);
     }
 
-    private Map<String, Object> convertProfileDocumentToMap(UserInfo userInfo) {
+    private Map<String, Object> convertUserInfoToMap(UserInfo userInfo) {
         return objectMapper.convertValue(userInfo, Map.class);
     }
 }
