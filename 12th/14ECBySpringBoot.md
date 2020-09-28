@@ -132,6 +132,10 @@ server:
 
 # 欸？500錯？怎麼可能？
 ##  沒事沒事，要改的東西太多了，改天吧
+# 來看下現在我們的demo長怎麼樣吧
+
+![](https://CY810912.github.io/th12img/springboot/sc.jpg)   
+
 
 反正坑都踩過填過了，小事麻
 
