@@ -1,4 +1,4 @@
-# 再不耕田受不了啦！！從這篇開始造飛機，讓農夫們都能體驗天上飛的感覺吧！！(3)spring boot & Elastic on Cloud :let's get && Restful
+# 再不耕田受不了啦！！從這篇開始造飛機，讓農夫們都能體驗天上飛的感覺吧！！(4)spring boot & Elastic on Cloud :let's get ALL && Restful
 
 ---
 
@@ -40,12 +40,18 @@ public List<UserInfo> findAll() throws IOException {
 ```java
 public List<UserInfo> findAll() throws IOException {
     //建立搜尋請求
-    SearchRequest searchRequest = buildSearchRequest(INDEX, TYPE);
+    SearchRequest searchRequest = buildSearchRequest(INDEX);
     SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
     //es封裝查詢語句
     searchSourceBuilder.query(QueryBuilders.matchAllQuery());
     searchRequest.source(searchSourceBuilder);
     return getSearchResult(client.search(searchRequest, RequestOptions.DEFAULT));
+}
+
+private SearchRequest buildSearchRequest(String index) {
+    SearchRequest searchRequest = new SearchRequest();
+    searchRequest.indices(index);
+    return searchRequest;
 }
 
 /**

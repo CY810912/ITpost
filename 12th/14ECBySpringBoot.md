@@ -58,7 +58,6 @@ public class UserInfoService {
 ```java
 //這裡記得用static Enum還要點來點去的，有點麻煩
 import static com.ithelp.ironman.ecdemo.constant.EsConstant.INDEX;
-import static com.ithelp.ironman.ecdemo.constant.EsConstant.TYPE;
 
 @Repository
 public class UserInfoDAO {
@@ -68,7 +67,7 @@ public class UserInfoDAO {
     private ObjectMapper objectMapper;
 
     public IndexResponse createDoc(UserInfo userInfo) throws IOException {
-        IndexRequest indexRequest = new IndexRequest(INDEX,TYPE);
+        IndexRequest indexRequest = new IndexRequest(INDEX);
         indexRequest.id(userInfo.getId());
         indexRequest.source(convertUserInfoToMap(userInfo));
         return client.index(indexRequest, RequestOptions.DEFAULT);
