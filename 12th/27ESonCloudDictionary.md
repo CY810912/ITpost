@@ -23,6 +23,8 @@
 ## 會去關心理解需求與業務幫助公司賺錢的工程師才能提升思維與視野而且少做工呢~
 ![](https://CY810912.github.io/th12img/ecTool/dogcom.jpg)  
 
+## [點我看原文~](https://www.facebook.com/itdogcom/photos/a.1006163632885366/1659522980882758)
+
 # 那麼今天的正篇開始囉~真是就算拆了上下篇也是肯定爆字的標題呢  
 
 # 今天請愛用ctrl(cmd)+f, talk is cheap show you code 
