@@ -215,3 +215,8 @@ GET /it_help/_doc/_search
 
 
 [此篇參考資料~](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
+---
+## 對於文章中的任何用詞與專業字或都可以在下面留言提問 
+###### ~~梗圖看不懂也行~~
+# 蔽農會帶着謙卑爲懷的心情竭盡所能回覆與說明的
